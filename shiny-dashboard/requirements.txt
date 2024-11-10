@@ -1,0 +1,7 @@
+faicons
+shiny
+pandas
+plotly
+xgboost
+shinywidgets
+ipyleaflet

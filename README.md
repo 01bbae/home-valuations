@@ -2,13 +2,15 @@
 
 The goal of this project is to develop a predictive model for housing prices using machine learning techniques, specifically XGBoost. By analyzing various features of residential properties, we aim to create an accurate and robust model that can estimate property values based on details of recently sold properties in California in the year 2024.
 
-## Getting Started 
+You can open this dashboard using this [link](https://avmshinydash.duckdns.org/)
+
+## Getting Started
 
 It is recommended that you download and upload these three datasets to the Google Colab notebook before running the notebook.
 
-1. ```lotwize_case.xlsx```
-2. ```nearest_features_distance.csv```
-3. ```climate_population_density```
+1. `lotwize_case.xlsx`
+2. `nearest_features_distance.csv`
+3. `climate_population_density`
 
 <details>
 
@@ -24,10 +26,12 @@ If you did want to run these cells, I highly recommend downloading the notebook 
 
 Installing
 
-Most dependencies of our project will be installed by default by Google Colab. One dependency that is not there by default is ```shap```. We install ```shap``` in the notebook for you but if it does not work, try install ```shap``` again by running
+Most dependencies of our project will be installed by default by Google Colab. One dependency that is not there by default is `shap`. We install `shap` in the notebook for you but if it does not work, try install `shap` again by running
+
 ```
 !pip install shap
 ```
+
 in one of the cells
 
 ## Built With
